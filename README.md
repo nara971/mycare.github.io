@@ -9,7 +9,7 @@ To marry those concepts are the **“mindful reminders”**, which generate **mo
 Wrapping it all up is the **social good meter**, which shows how the user’s individual efforts **contribute to a larger community goal** like mental wellness and carbon reduction, which discourages them from feeling alone on this big blue planet.
 
 ## How we built it
-We used Google Colab/Jupyter Notebooks/Python and its libraries for data processing, Figma for UX/UI design, and HTML/CS/JS for front-end development. Open-source code was used from Our World in Data [link](https://github.com/owid/co2-data/tree/master) to compare individual co2 emissions and reductions to those all over the nation, allowing the user to see in real-time their impact on sustainability. Google Sheets API was used to store data as it aggregates with real user input to then use for front-end development. 
+We used Google Colab/Jupyter Notebooks/Python and its libraries for data processing, Figma for UX/UI design, and HTML/CS/JS for front-end development. Open-source code was used from [Our World in Data](https://github.com/owid/co2-data/tree/master) to compare individual co2 emissions and reductions to those all over the nation, allowing the user to see in real-time their impact on sustainability. Google Sheets API was used to store data as it aggregates with real user input to then use for front-end development. 
 - ChatGPT was used to generate simulated journal entries, generate motivational phrases and responses from the application, and check bugs/syntax errors in code.
 **Data Processing and Analysis **
 - Started with simulating user data for weekly activity, and hard coding the user data that would then be replaced with genuine user inputs. Numpy was used to randomize figures for realism. 

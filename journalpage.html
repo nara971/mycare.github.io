@@ -101,27 +101,7 @@ h6 {
 	font-size : 16px;
 }
 
-.button {
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #FF70A6;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
 
-
-.button:hover {background-color: red}
-
-.button:focus {
-  background-color: red;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
 
 
 
@@ -138,14 +118,43 @@ h6 {
 
 }
 
+.button{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #FF70A6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;	  
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left:43%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+text-align:center;
+  
+
+}
+
+.button:hover {background-color: red}
+
+.button:focus {
+ box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .show {display: block;}
 </style>
 
 
 
 <h1 style = "color:black";>
-<a style = "text-decoration: none;color:black;margin: auto;" href="index.html">MyCare</a>
+<a style = "text-decoration: none;color:black;margin: auto;">MyCare</a>
 </h1>
+
 
 
 <div class = "link">
@@ -153,59 +162,24 @@ h6 {
 <a style = "text-decoration: none;color:black;">Stats&nbsp;&nbsp;</a>
 <a style = "text-decoration: none;color:black;" href = "file:///C:/Users/Navya/Documents/website/journalpage.html">Journal&nbsp;</a>
 
+
+
+<hr>
+
+
+
+
+<h3 style = "text-align:center">Write in your journal starting right now </h3>
+
+<a href = "file:///C:/Users/Navya/Documents/website/thoughtspage.html">
+<button class = "button">Start Typing..</button>
+</a>
+
+
 </div>
 
-<hr class = "hr">
-<div class = smalltext>
-
-<h3> Hello ____, how do you currently feel? <h3>
-
-<br>
-<br>
-
-<h3>Daily Mood Log</h3>
 </div>
 
 
 
-<button class="button"></button>
-<button class="button"></button>
-<button class="button"></button>
-<button class="button"></button>
-<button class="button"></button>
 <br>
-<br>
-
-
-
-
-
-
-<h3>&nbsp;&nbsp;😔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🙁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;😐&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🙂&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;😊</h2>
-
-<br>
-<div class = "smalltext">
-<h3>What did you accomplish today?</h3> 
-<form action="/action_page.php"> 
-<input type="checkbox"> <label>Drink Water</label><br> 
-<input type="checkbox"> 
-<label>Bathe</label><br> 
-<input type="checkbox"> 
-<label >Medidate</label><br> <input type="checkbox">
-<label >Journal</label><br><br> 
-<input type="submit" value="Submit">
- </form>
- <br>
- <br>
- <h3>How did you feel about today?</h3>
- <form action="/action_page.php">
- <input style = "width:300px; height: 50px;" type="text" id="fname" name="fname">
-<br><br> 
-<input type="submit" value="Submit">
- </form> </div> <br>
-
-
-
-
-<br>
-
